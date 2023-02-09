@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de sites",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-02-07T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Amba black",
+      "type": "income",
+      "category": "Venda",
+      "price": 5000,
+      "createdAt": "2023-02-01T19:36:44.505Z"
+    },
+    {
+      "id": 3,
+      "description": "Feira",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 1200,
+      "createdAt": "2023-02-07T19:36:50.505Z"
+    },
+    {
+      "description": "Hamburgueria",
+      "price": 70,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-02-08T23:02:53.247Z",
+      "id": 4
+    },
+    {
+      "description": "Mentoria",
+      "price": 4000,
+      "category": "Vendas",
+      "type": "income",
+      "createdAt": "2023-02-08T23:27:34.335Z",
+      "id": 5
+    }
+  ]
+}
