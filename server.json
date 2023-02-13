@@ -39,6 +39,30 @@
       "type": "income",
       "createdAt": "2023-02-08T23:27:34.335Z",
       "id": 5
+    },
+    {
+      "description": "carro",
+      "price": 120,
+      "category": "iptu",
+      "type": "outcome",
+      "createdAt": "2023-02-10T20:44:55.062Z",
+      "id": 6
+    },
+    {
+      "description": "Cinema",
+      "price": 40,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2023-02-10T20:59:37.690Z",
+      "id": 7
+    },
+    {
+      "description": "remédio",
+      "price": 45,
+      "category": "saúde",
+      "type": "outcome",
+      "createdAt": "2023-02-10T21:24:23.419Z",
+      "id": 8
     }
   ]
 }
