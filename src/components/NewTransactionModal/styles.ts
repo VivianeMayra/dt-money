@@ -15,6 +15,8 @@ export const Content = styled(Dialog.Content)`
   border-radius: 6px;
   padding: 2.5rem 3rem;
   background: ${(props) => props.theme["gray-800"]};
+
+  //Hack para centralizar div na tela
   position: fixed;
   top: 50%;
   left: 50%;

@@ -1,6 +1,7 @@
 import { createContext, ReactNode, useEffect, useState } from "react"
 import { api } from "../lib/axios"
 
+//quais informações serão armazenadas
 interface Transaction {
   id: number
   description: string

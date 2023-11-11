@@ -25,6 +25,14 @@
       "createdAt": "2023-02-07T19:36:50.505Z"
     },
     {
+      "id": 4,
+      "description": "Compra de presentes de natal",
+      "type": "outcome",
+      "category": "vendas",
+      "price": 874,
+      "createdAt": "2023-02-07T19:36:50.505Z"
+    },
+    {
       "description": "Hamburgueria",
       "price": 70,
       "category": "Alimentação",
@@ -63,6 +71,38 @@
       "type": "outcome",
       "createdAt": "2023-02-10T21:24:23.419Z",
       "id": 8
+    },
+    {
+      "description": "Uber do dia 11/11/2023",
+      "price": 25,
+      "category": "transporte",
+      "type": "outcome",
+      "createdAt": "2023-11-11T11:04:55.110Z",
+      "id": 9
+    },
+    {
+      "description": "Embalagens",
+      "price": 100,
+      "category": "serviços gerais",
+      "type": "outcome",
+      "createdAt": "2023-11-11T11:05:49.124Z",
+      "id": 10
+    },
+    {
+      "description": "Beach park",
+      "price": 160,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2023-11-11T11:09:14.084Z",
+      "id": 11
+    },
+    {
+      "description": "Comissão do dia 10 de novembro",
+      "price": 140,
+      "category": "Vendas",
+      "type": "income",
+      "createdAt": "2023-11-11T11:09:53.336Z",
+      "id": 12
     }
   ]
 }

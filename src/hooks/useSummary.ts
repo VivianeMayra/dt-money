@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { TransactionsContext } from "../contexts/TransactionsContext"
 
+//criou seu próprio hook (função) que chama outro hook já do próprio react
 export function useSummary() {
   const { transactions } = useContext(TransactionsContext)
 
@@ -24,3 +25,5 @@ export function useSummary() {
   )
   return summary
 }
+
+//Reduce: Percorre todo o array e reduz ele a alguma estrutura que você definiu, sendo passado dois parâmetros: resumo atual e o valor que deseja trabalhar
