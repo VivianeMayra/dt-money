@@ -13,6 +13,12 @@ export const SearchFormContainer = styled.form`
     &::placeholder {
       color: ${(props) => props.theme["gray-500"]};
     }
+
+    @media (min-width: 1028px) {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
   }
   button {
     display: flex;

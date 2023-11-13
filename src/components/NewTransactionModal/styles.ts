@@ -8,6 +8,11 @@ export const Overlay = styled(Dialog.Overlay)`
   height: 100vh;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.75);
+
+  @media (max-width: 780px) {
+    width: 100%;
+    height: 100%;
+  }
 `
 
 export const Content = styled(Dialog.Content)`

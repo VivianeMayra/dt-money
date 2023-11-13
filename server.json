@@ -103,6 +103,14 @@
       "type": "income",
       "createdAt": "2023-11-11T11:09:53.336Z",
       "id": 12
+    },
+    {
+      "description": "Comissão do dia 13/11/23",
+      "price": 5000,
+      "category": "Vendas",
+      "type": "income",
+      "createdAt": "2023-11-12T20:30:15.524Z",
+      "id": 13
     }
   ]
 }

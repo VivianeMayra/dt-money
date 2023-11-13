@@ -1,15 +1,20 @@
 import styled, { css } from "styled-components"
 
 export const SummaryContainer = styled.section`
-  width: 100%;
-  max-width: 1120px;
+  width: 80%;
   margin: 0 auto;
-  padding: 0 1.5rem;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  gap: 1rem;
   margin-top: -5rem;
+  //margin-left: 4rem;
+
+  @media (min-width: 1028px) {
+    width: 85%;
+    max-width: 1120px;
+  }
 `
 
 interface SummaryCardProps {

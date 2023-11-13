@@ -1,10 +1,15 @@
 import styled from "styled-components"
 
 export const TransactionsContainer = styled.main`
-  width: 100%;
+  width: 90vh;
   max-width: 1120px;
-  margin: 4rem auto 0;
+  margin: 2.5rem;
   padding: 0 1.5rem;
+
+  @media (min-width: 1028px) {
+    width: 85%;
+    margin: 4rem auto 0;
+  }
 `
 export const TransactionsTable = styled.table`
   width: 100%;

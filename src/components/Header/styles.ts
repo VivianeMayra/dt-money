@@ -3,6 +3,11 @@ import styled from "styled-components"
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["gray-900"]};
   padding: 2.5rem 0 7.5rem;
+  width: 100vh;
+
+  @media (min-width: 1028px) {
+    width: 100%;
+  }
 `
 export const Logo = styled.div`
   display: flex;
@@ -12,13 +17,16 @@ export const Logo = styled.div`
 `
 
 export const HeaderContent = styled.div`
-  width: 100%;
-  max-width: 1120px;
+  width: 85%;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: 1028px) {
+    width: 85%;
+  }
 `
 export const NewTransationButton = styled.button`
   height: 50px;
