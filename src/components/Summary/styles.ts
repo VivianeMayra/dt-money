@@ -2,18 +2,22 @@ import styled, { css } from "styled-components"
 
 export const SummaryContainer = styled.section`
   width: 80%;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 auto;
   padding: 0 0.5rem;
   gap: 1rem;
   margin-top: -5rem;
-  //margin-left: 4rem;
+  margin-left: 8rem;
 
-  @media (min-width: 1028px) {
-    width: 85%;
+  @media (max-width: 1020px) {
+    width: 90%;
     max-width: 1120px;
+    margin-left: 4rem;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 300px;
+    margin-left: 1.5rem;
   }
 `
 
@@ -24,6 +28,10 @@ export const SummaryCard = styled.div<SummaryCardProps>`
   background: ${(props) => props.theme["gray-600"]};
   border-radius: 6px;
   padding: 2rem;
+
+  @media (max-width: 480px) {
+    width: 230px;
+  }
 
   header {
     display: flex;

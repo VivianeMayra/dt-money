@@ -21,12 +21,23 @@ export const Content = styled(Dialog.Content)`
   padding: 2.5rem 3rem;
   background: ${(props) => props.theme["gray-800"]};
 
-  //Hack para centralizar div na tela
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  @media (min-width: 1020px) {
+    //Hack para centralizar div na tela
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
+  @media (max-width: 480px) {
+    width: 100%;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 6.5rem 6rem;
+    border-radius: 8%;
+  }
   form {
     margin-top: 2rem;
     display: flex;

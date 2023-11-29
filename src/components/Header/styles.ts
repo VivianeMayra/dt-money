@@ -8,6 +8,10 @@ export const HeaderContainer = styled.header`
   @media (min-width: 1028px) {
     width: 100%;
   }
+
+  @media (max-width: 480px) {
+    width: 143vh;
+  }
 `
 export const Logo = styled.div`
   display: flex;
