@@ -8,17 +8,15 @@ export const SummaryContainer = styled.section`
   gap: 1rem;
   margin-top: -5rem;
   margin-left: 8rem;
+  align-items: center;
+  justify-content: center;
 
-  @media (max-width: 1020px) {
-    width: 90%;
-    max-width: 1120px;
-    margin-left: 4rem;
+  @media (max-width: 1024px) {
+    margin-left: 6rem;
   }
 
   @media (max-width: 480px) {
-    max-width: 300px;
-    margin-left: 3.5rem;
-    gap: 6rem;
+    margin-left: 14rem;
   }
 `
 

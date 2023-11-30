@@ -6,7 +6,7 @@ export const TransactionsContainer = styled.main`
   margin: 2.5rem;
   padding: 0 1.5rem;
 
-  @media (min-width: 1028px) {
+  @media (min-width: 1024px) {
     width: 85%;
     margin: 4rem auto 0;
   }

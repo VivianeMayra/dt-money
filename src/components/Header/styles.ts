@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   padding: 2.5rem 0 7.5rem;
   width: 100vh;
 
-  @media (min-width: 1028px) {
+  @media (min-width: 1024px) {
     width: 100%;
   }
 

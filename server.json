@@ -119,6 +119,22 @@
       "type": "income",
       "createdAt": "2023-11-29T13:27:44.912Z",
       "id": 14
+    },
+    {
+      "description": "Teste dia 30",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-11-30T14:00:20.192Z",
+      "id": 15
+    },
+    {
+      "description": "Compras dos presentes de natal",
+      "price": 300,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2023-11-30T14:02:04.013Z",
+      "id": 16
     }
   ]
 }
