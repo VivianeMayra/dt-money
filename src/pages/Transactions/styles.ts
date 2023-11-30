@@ -10,7 +10,13 @@ export const TransactionsContainer = styled.main`
     width: 85%;
     margin: 4rem auto 0;
   }
+
+  @media (max-width: 480px) {
+    margin-left: 2rem;
+    width: 100vh;
+  }
 `
+
 export const TransactionsTable = styled.table`
   width: 100%;
   border-collapse: separate;

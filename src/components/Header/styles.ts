@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
   }
 
   @media (max-width: 480px) {
-    width: 143vh;
+    width: 109vh;
   }
 `
 export const Logo = styled.div`

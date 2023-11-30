@@ -16,7 +16,7 @@ export const SummaryContainer = styled.section`
   }
 
   @media (max-width: 480px) {
-    margin-left: 14rem;
+    margin-left: 19rem;
   }
 `
 

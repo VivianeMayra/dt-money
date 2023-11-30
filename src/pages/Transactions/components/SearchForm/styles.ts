@@ -47,6 +47,6 @@ export const SearchFormContainer = styled.form`
   }
 
   @media (max-width: 480px) {
-    width: 140%;
+    width: 100%;
   }
 `
